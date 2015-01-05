@@ -1,0 +1,4 @@
+WpfHelpers
+==========
+
+WPF helper library
