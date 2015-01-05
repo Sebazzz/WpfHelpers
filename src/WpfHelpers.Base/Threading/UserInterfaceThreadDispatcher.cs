@@ -9,7 +9,11 @@
     ///   Dispatches the specified delegates on the user interface thread after <see cref="Initialize" /> has been called from Application.Start
     /// </summary>
     public static class UserInterfaceThreadDispatcher {
+#if NET45
+        private static readonly bool IsDesignTime = DesignerProperties.GetIsInDesignMode(Application.Current.MainWindow);
+#else
         private static readonly bool IsDesignTime = DesignerProperties.IsInDesignTool;
+#endif
         private static Dispatcher UserInterfaceDispatcher;
 
         /// <summary>
@@ -20,7 +24,11 @@
                 return;
             }
 
+#if NET45
+            UserInterfaceDispatcher = Application.Current.Dispatcher;
+#else
             UserInterfaceDispatcher = Deployment.Current.Dispatcher;
+#endif
         }
 
 
