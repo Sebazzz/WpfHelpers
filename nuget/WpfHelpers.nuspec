@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WpfHelpers</id>
+        <version>1.0.0</version>
+        <authors>Sebastiaan Dammann and contributors</authors>
+        <owners>Sebastiaan Dammann</owners>
+        <projectUrl>https://github.com/Sebazzz/WpfHelpers</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>WPF helpers</description>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.Base.dll" target="lib\net45\WpfHelpers.Base.dll" />
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.Base.pdb" target="lib\net45\WpfHelpers.Base.pdb" />
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.Base.xml" target="lib\net45\WpfHelpers.Base.xml" />
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.dll" target="lib\net45\WpfHelpers.dll" />
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.pdb" target="lib\net45\WpfHelpers.pdb" />
+        <file src="..\src\WpfHelpers\Bin\full\Release\WpfHelpers.XML" target="lib\net45\WpfHelpers.XML" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.Base.dll" target="lib\wp8\WpfHelpers.Base.dll" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.Base.pdb" target="lib\wp8\WpfHelpers.Base.pdb" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.Base.xml" target="lib\wp8\WpfHelpers.Base.xml" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.dll" target="lib\wp8\WpfHelpers.dll" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.pdb" target="lib\wp8\WpfHelpers.pdb" />
+        <file src="..\src\WpfHelpers\Bin\wp8\Release\WpfHelpers.XML" target="lib\wp8\WpfHelpers.XML" />
+    </files>
+</package>
